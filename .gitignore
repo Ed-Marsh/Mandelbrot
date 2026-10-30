@@ -1,0 +1,24 @@
+# B4X - Generated build output (never commit these)
+Objects/
+
+# B4X - Auto-backup zip files
+AutoBackups/
+B4A/AutoBackups/
+
+# B4X - Meta file (machine-specific, regenerated on open)
+*.meta
+
+# B4X - Compiled outputs
+*.apk
+*.dex
+*.jar
+*.ipa
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# General
+*.tmp
+*.bak
+*.log
