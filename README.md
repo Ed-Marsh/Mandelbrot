@@ -27,7 +27,7 @@ A multi-threaded Mandelbrot set viewer written in [B4J](https://www.b4x.com/b4j.
 ## Building and running
 
 1. Install [B4J](https://www.b4x.com/b4j.html) (v10.7 or later) and a JDK compatible with it.
-2. Open `B4J/Mandlebrot.b4j` in the B4J IDE.
+2. Open `B4J/Mandelbrot.b4j` in the B4J IDE.
 3. Make sure the libraries `b4xpages`, `jcore`, `jfx` and `threading` are available (the first three ship with B4J as standard).
 4. Press **F5** to run, or compile a standalone jar via *Project > Compile to Library/Jar*.
 
@@ -43,7 +43,7 @@ A multi-threaded Mandelbrot set viewer written in [B4J](https://www.b4x.com/b4j.
 
 ```
 B4XMainPage.bas      Main page: rendering, threading and input handling (shared B4X code)
-B4J/Mandlebrot.b4j   B4J project file
+B4J/Mandelbrot.b4j   B4J project file
 B4J/Files/           Designer layout (MainPage.bjl)
 screenshots/         Images used in this README
 ```
