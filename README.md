@@ -29,7 +29,8 @@ A multi-threaded Mandelbrot set viewer written in [B4J](https://www.b4x.com/b4j.
 1. Install [B4J](https://www.b4x.com/b4j.html) (v10.7 or later) and a JDK compatible with it.
 2. Open `B4J/Mandelbrot.b4j` in the B4J IDE.
 3. Make sure the libraries `b4xpages`, `jcore`, `jfx` and `threading` are available (the first three ship with B4J as standard).
-4. Press **F5** to run, or compile a standalone jar via *Project > Compile to Library/Jar*.
+4. Set the compile mode to **Release** (dropdown in the B4J toolbar). The app must be run in Release mode because threads cannot run in Debug mode.
+5. Press **F5** to run, or compile a standalone jar via *Project > Compile to Library/Jar*.
 
 ## How it works
 
